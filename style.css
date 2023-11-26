@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    outline: none;
+    padding: 0;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+background: linear-gradient(120deg, rgb(142, 2, 98), rgb(41, 137, 163)
+
+);
+}  
+  .main{
+margin: 30px;
+color: white;
+
+}
+.main h1{
+    font-size: 4vw;
+    font-weight: 900;
+
+}
+.main h1 i{
+    margin-right: 10px;
+}
+.main button{
+    border: none;
+    background: transparent;
+    color: white;
+    margin: 10px;
+    background: linear-gradient(135deg,#3d043d,#674dda);
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px;
+    height:40px;
+    font-weight: 400;
+}
+ 
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    min-height: 120px;
+    color: black;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size:1vw;
+ 
+}
+.input-box img{
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   right: 10px;
+   top: 140px;
+    cursor: pointer;
+}
